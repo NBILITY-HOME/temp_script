@@ -180,6 +180,3 @@ start_docker() {
 
     ok "Stack Docker Compose démarrée avec succès"
 }
-
-# Appeler la fonction
-start_docker
