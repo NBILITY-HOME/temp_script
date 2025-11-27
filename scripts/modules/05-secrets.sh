@@ -63,6 +63,13 @@ HOST_PORT_PORTAL=$HOST_PORT_PORTAL
 HOST_PORT_BOLT=$HOST_PORT_BOLT
 HOST_PORT_KEYCLOAK=$HOST_PORT_KEYCLOAK
 
+# ─────────────────────────────────────────────────────────────────
+# LET'S ENCRYPT + NGINX-PROXY-AUTOMATION
+# ─────────────────────────────────────────────────────────────────
+NETWORK=${NETWORK}
+DOMAINS=${DOMAINS}
+LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+
 # URL Documentation
 DOCS_URL=https://github.com/NBILITY-HOME/BOLT.DIY-INTRANET/wiki
 
